@@ -12,7 +12,7 @@ function ChannelTalk() {
       customLauncherSelector: "#chat",
       hideChannelButtonOnBoot: true, // 채널톡 버튼 숨기기
       // pluginKey: "833ec521-4443-4e92-b7c4-664c0399c871",
-      pluginKey: "4e541100-1a98-44f6-88ea-4106923c18c5",
+      pluginKey: process.env.NEXT_PUBLIC_PLUGIN_KEY ?? "",
     });
     console.log("ChannelService.boot");
     ChannelService.showMessenger();
