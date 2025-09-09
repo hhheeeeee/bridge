@@ -17,7 +17,7 @@ function ChannelTalk() {
     console.log("ChannelService.boot");
     ChannelService.showMessenger();
     ChannelService.hideChannelButton();
-    console.log("ChannelService.showMessenger");
+    console.log("ChannelService.showMessenger-=");
   }, []);
 
   return (
